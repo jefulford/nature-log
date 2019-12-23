@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="container-fluid">
+	<a href="/">Home</a>
+	<div class="jumbotron jumbotron-fluid">
+		<h1>Plants</h1>
+	</div>
+	{% for plant in site.data.plants %}
+		<div class="card">	
+			<div class="row plant">
+				<div class="col-sm-3">
+					<img src="{{ plant.image }}" class="card-img" />
+				</div>
+				<div class="col-sm-7 body">
+					<h2>{{ plant.name }}</h2>
+					<h4>{{ plant.environment }} – {{ plant.locations}}</h4>
+					<p>{{ plant.description }}</p>
+				</div>
+				<div class="col-sm-2 body">
+					<p>
+						Thorns: 
+							{% if plant.thorns == true %}
+								<span class="yes">YES</span>
+							{% else %}
+								<span class="no">NO</span>
+							{% endif %}
+						<br />
+						Poisonous: 
+							{% if plant.poisonous == true %}
+								<span class="yes">YES</span>
+							{% else %}
+								<span class="no">NO</span>
+							{% endif %}
+					</p>
+				</div>
+			</div>
+		</div>
+		<hr />
+	{% endfor %}
+</div>

@@ -1,0 +1,15 @@
+h1 { font-family: Lato; }
+
+.jumbotron { text-align: center; }
+
+.card { padding: 30px; background-color: rgba(0, 0, 0, 0.1); }
+
+.bird img, .plant img { width: 100%; }
+
+.bird .yes, .plant .yes { color: red; }
+
+.bird .no, .plant .no { color: grey; }
+
+.row { width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

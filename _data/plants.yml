@@ -1,0 +1,28 @@
+- name: Winterberry
+  environment: water
+  locations: Beaver Pond
+  description: Native tall bush. Part of Holly group, often called Canadian holly. However, unlike holly, its leaves fall off during fall but their red spherical berries stay during winter, hence the name. Used by Native Americans for medicinal propterties.
+  thorns: No
+  poisonous: No
+  image: https://nicksnaturepics.files.wordpress.com/2013/11/winterberry2nov13011e.jpg
+- name: Staghorn Sumac
+  environment: dry soil
+  locations: Farm Road
+  description: Invasive tree. Long, upwards reaching branches with slender, rainforest-looking leaves. Large conical bunches of fuzzy drupes grow upwards from the plant. Drupes are slightly fuzzy and a deep red. Used a spice in other cultures. Often attacked by American Bittersweet in my area.
+  thorns: No
+  poisonous: No
+  image:
+- name: Japanese Barberry
+  environment: water
+  locations: Little Creek, Winterberry Court, Court Pond, Semcre Bridge, Big Creek
+  description: Bush grows around 3-4 feet tall with slender thorns and oblong red berries. Loses their leaves in the winter, but poisonous berries stay.
+  thorns: Yes
+  poisonous: Yes
+  image: https://s.hdnux.com/photos/06/12/21/1614949/7/rawImage.jpg
+- name: American Bittersweet
+  environment: dry soil
+  locations: Farm Road, South of the Keep
+  description: Invasive vine that grows around trees. Potentially can kill the tree it grows around. Round, rubbery, slightly frilly leaves leaves. Berries are green during spring and summer, then go orange. After the leaves fall off for winter, the shell of the berries opens revealing red fruit with 2-3 seeds.
+  thorns: No
+  poisonous: Yes
+  image: https://tse1.mm.bing.net/th/id/OIP.v6fsaCUnJf4O_BrCPcZc-AHaFj?pid=Api&rs=1 

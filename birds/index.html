@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="container-fluid">
+	<a href="/">Home</a>
+	<div class="jumbotron jumbotron-fluid">
+		<h1>Birds</h1>
+	</div>
+	{% for bird in site.data.birds %}
+		<div class="bird row">
+				<div class="col-sm-3">
+					<img src="{{ bird.image }}" />
+				</div>
+				<div class="col-sm-7">
+					<h2>{{ bird.name }}</h2>
+					<h5>{{ bird.locations }}</h5>
+					<p>{{ bird.description }}</p>
+					<hr>
+					<h6>{{ bird.special }}</h6>
+				</div>
+				<div class="col-sm-2">
+					{{ bird.call }}
+				</div>
+			</div>
+		</div>
+		<hr />
+	{% endfor %}
+</div>

@@ -1,0 +1,14 @@
+- name: Blue Jay
+  locations: Feeder, Trees, Orchard
+  description: Larger birds (around 12" tall) with blue and white colorings.
+  call: A large call, like a hawk.
+  special: What would be their thighs are covered in adorable down.
+  quantity: Around 10
+  image: http://2.bp.blogspot.com/-EktLW172Bvk/UcAY7DuD0CI/AAAAAAAADSQ/u-JPzAx1M5s/s1600/Blue-Jay-Lovely-Bird.jpg
+- name: Cardinal
+  locations: Feeder, Trees, Orchard
+  description: Medium-sized birds. Males are bright red with a black mask around their short beak. Males have a matching red crest. Females are a dull reddish-brown with bright orange beaks and slightly orange crests. Often come to the feeder in pairs (Mr. & Mrs. Stu)
+  call: Short but loud chirps, frequently when feeding
+  special: Male Cardinals have different sized black masks than other. The brighter the red the better; the bigger the mask, the better.
+  quantity: 4
+  image: https://upload.wikimedia.org/wikipedia/commons/d/d8/Cardinalis_cardinalis_-Columbus%2C_Ohio%2C_USA-male-8_%281%29.jpg
